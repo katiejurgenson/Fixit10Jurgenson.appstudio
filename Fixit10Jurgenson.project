@@ -26,6 +26,14 @@
             "Form1",
             "Form1.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "customerSelect",
+            "customerSelect.json"
+          ]
         }
       ],
       "configxml": null,
@@ -47,7 +55,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "Form1",
+      "firstform": "customerSelect",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
