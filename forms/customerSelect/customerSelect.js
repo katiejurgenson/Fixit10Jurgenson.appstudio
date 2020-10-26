@@ -4,7 +4,7 @@ customerSelect.onshow=function(){
     drpCustomers.clear()
     query = "SELECT * FROM customer2"
     // Below change from my netID to yours (twice: user and database)    
-    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=klj73571&pass=" + pw + "&database=klj73571&query=" + query)
+    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=klj73571&pass=databasepass1&database=klj73571&query=" + query)
 
     if (req.status == 200) {            // transit trip worked.
       results = JSON.parse(req.responseText)

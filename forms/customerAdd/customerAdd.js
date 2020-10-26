@@ -1,7 +1,7 @@
 customerAdd.onshow=function(){
     drpCustNames.clear()
     let query = "SELECT * FROM customer2"    
-    let req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=klj73571&pass=" + pw + "&database=klj73571&query=" + query)
+    let req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=klj73571&pass=databasepass1&database=klj73571&query=" + query)
 
     if (req.status == 200) {            // transit trip worked.
       let results = JSON.parse(req.responseText)
